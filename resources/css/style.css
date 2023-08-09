@@ -21,6 +21,9 @@ body{
         align-items: center;
 }
 
+a{
+        text-decoration: none;
+}
 
 
 h1{
@@ -29,8 +32,12 @@ h1{
         text-transform: lowercase;;
         filter: blur(0.08rem);
 }
-
-
+h1:hover{
+        transition: ease-in-out 0.5s;
+        color: aquamarine;
+        cursor: pointer;
+        rotate: 360deg;
+}
 
 h3{
         font-size: 0.75rem;
