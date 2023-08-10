@@ -22,6 +22,7 @@ body{
 
 h1{
         font-size: 3rem;
+        font-weight: 700;
         text-align: center;
         text-transform: lowercase;;
         filter: blur(0.08rem);
@@ -35,6 +36,7 @@ h1:hover{
 
 h3{
         font-size: 0.75rem;
+        font-weight: 300;
         color: #d8d8d8;
         position: relative;
         text-align: center;
